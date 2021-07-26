@@ -68,3 +68,27 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+## Topics Covered
+### JSX
+- Syntax.
+- Fragments.
+- Differences with HTML.
+### Class Component
+- - How to create a class component: ```class Counter extends Component```
+- Setting this.state by overriding the constructor.
+- Using props inside of the constructor. 
+- Using props inside of render calls.
+- How to pass props values in our companents via attributes. 
+- How to use setState, both the function version and the non-function version.
+-   Adding eventlisterners to change the states.
+### Function Component
+- How to create a functional component.
+- How to props.
+- How to use the useState hook.
+### Context
+- React.createContext()
+- Context.Provider, value.
+- Context.Consumer in a class component.
+- Context.Consumer in a functional component, useContext hook.
