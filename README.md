@@ -1,4 +1,37 @@
-# Getting Started with Create React App
+# React 101
+
+## Topics Covered
+
+### JSX
+- Syntax.
+- Fragments.
+- Differences with HTML.
+
+### Class Component
+- How to create a class component.
+- Setting this.state by overriding the constructor.
+- Using props inside of the constructor. 
+- Using props inside of render calls.
+- How to pass props values in our companents via attributes. 
+- How to use setState, both the function version and the non-function version.
+- Adding event listeners to change state.
+
+### Function Component
+- How to create a functional component.
+- How to use props.
+- How to use the useState hook: creating a hook, deconstructing it, using the variable and setting a new value.
+
+### Context
+- React.createContext()
+- Context.Provider, value.
+- Context.Consumer in a class component.
+- Context.Consumer in a functional component, useContext hook.
+
+
+--- 
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -70,25 +103,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-## Topics Covered
-### JSX
-- Syntax.
-- Fragments.
-- Differences with HTML.
-### Class Component
-- - How to create a class component: ```class Counter extends Component```
-- Setting this.state by overriding the constructor.
-- Using props inside of the constructor. 
-- Using props inside of render calls.
-- How to pass props values in our companents via attributes. 
-- How to use setState, both the function version and the non-function version.
--   Adding eventlisterners to change the states.
-### Function Component
-- How to create a functional component.
-- How to props.
-- How to use the useState hook.
-### Context
-- React.createContext()
-- Context.Provider, value.
-- Context.Consumer in a class component.
-- Context.Consumer in a functional component, useContext hook.
